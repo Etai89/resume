@@ -5,105 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etai Michael Hatuel - CV Resume</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <div id="head_title">
-        <h1>Etai Michael hatuel</h1>
-    </div>
-    <div id="container">
+    <div class="container bg-light">
 
-        <div id="p_pic"><img id="profile_p" src="assets/profile_pic.png" alt="etai hatuel profile picture">
-        </div>
+        <!-- header -->
+        <div id="header" class="container" style="width: 800px; height: 350px;">
+            <div class="row">
 
-        <div id="header">
-            <p>Python programmer, planner of complex projects with creative thinking and problem solving</p>
-            <p>FullStack developer, develops front-end and back-end, ensuring seamless integration with diverse
-                technologies
-                and databases</p>
-            <div id="download_b">
-                <a href="assets/CV Resume.pdf" download="CV.pdf">
-                    <p id="border1">&#128196;Download Resume</p>
-                </a>
-                <a href="mailto:senioretai@gmail.com">
-                    <p id="mail">&#x2709;senioretai@gmail.com</p>
-                </a>
-            </div>
+                <div id="first" class="col d-flex justify-content-center align-items-center">
+                    <div class="pic mt-20 align-content-center" style="height: 200px;">
+                        <img src="assets/profile_pic.png" alt="profile picture" style="width: 200px;">
+                    </div>
 
+                    <div class="header m-5 w-200 text-justify" style="width: 350px;">
+                        <h1 class="mb-3">Etai Michael hatuel</h1>
+                        <p>Python programmer, planner of complex projects with creative thinking and problem solving</p>
+                        <p>FullStack developer, develops front-end and back-end, ensuring seamless integration with
+                            diverse
+                            technologies
+                            and databases</p>
 
-        </div>
-
-
-    </div>
-    <div id="container2">
-        <div id="links">
-            <div class="top_links">
-                <a class="link_style" href="https://www.linkedin.com/in/etaihatuel" target="_blank">
-                    <p class="link_style">LinkedIn</p>
-                </a>
-            </div>
-            <div class="top_links">
-                <a class="link_style" href="https://github.com/Etai89" target="_blank">
-                    <p class="link_style">GitHub</p>
-                </a>
-            </div>
-            <div class="top_links">
-                <a class="link_style" href="https://www.facebook.com/etaihatuel" target="_blank">
-                    <p class="link_style">Facebook</p>
-                </a>
-            </div>
-            <div class="top_links">
-                <a class="link_style" href="https://www.youtube.com/@etaimichael" target="_blank">
-                    <p class="link_style">YouTube</p>
-                </a>
+                        <div id="download_b" class="d-grid" style="width: 190px;">
+                            <a href="assets/CV Resume.pdf" download="CV.pdf">
+                                <p id="border1">&#128196; Download Resume</p>
+                            </a>
+                            <a href="mailto:senioretai@gmail.com">
+                                <p id="mail">&#x2709; senioretai@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="container3">
-    <div id="exp" class="info">
-        <h2>Experience & Qulifications</h2>
 
-        <p><span class="checkmark">&#10003;</span> Python programming, API integration, multifunction programs, GUI
-            development.</p>
-        <p><span class="checkmark">&#10003;</span> working with a wide range of Python libraries and frameworks.</p>
-        <p><span class="checkmark">&#10003;</span> HTML and CSS, experience in creating responsive user-friendly web
-            pages.</p>
-        <p><span class="checkmark">&#10003;</span> Great thinking, self-learning ability, solving complex problems</p>
+        <!-- links -->
+        <div id="links" class="container" style="width: 600px;">
+            <div class="row">
+                <div class="col">
+                    <div id="links" class="d-flex justify-content-around">
+                        <div class="">
+                            <a href="https://www.linkedin.com/in/etaihatuel" target="_blank">
+                                <p>LinkedIn</p>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://github.com/Etai89" target="_blank">
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.facebook.com/etaihatuel" target="_blank">
+                                <p>Facebook</p>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.youtube.com/@etaimichael" target="_blank">
+                                <p>YouTube</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- info -->
+        <div id="info" class="container mb-3" style="width: 800px;">
+            <div class="row">
+                <div class="col">
+                    <div id="exp" class="col info">
+                        <h2>Experience & Qulifications</h2>
 
+                        <p><span class="text-success">&#10003;</span> Python programming, API integration, multifunction
+                            programs, GUI
+                            development.</p>
+                        <p><span class="text-success">&#10003;</span> working with a wide range of Python libraries and
+                            frameworks.</p>
+                        <p><span class="text-success">&#10003;</span> HTML and CSS, experience in creating responsive
+                            user-friendly web
+                            pages.</p>
+                        <p><span class="text-success">&#10003;</span> Great thinking, self-learning ability, solving
+                            complex problems</p>
+
+                    </div>
+                    <div id="skills" class="col info">
+                        <h2>Hard Skills</h2>
+                        <p><span class="text-warning">&starf;</span> programming: Python (API integration, sqlite, GUI,
+                            funcionality,
+                            statistical structors)</p>
+                        <p><span class="text-warning">&starf;</span> Web Development: Html, Css, (study Java script,
+                            Node.Js, React, MySql,
+                            angular, MongoDB)</p>
+                        <p><span class="text-warning">&starf;</span> Ai: In collaboration with OpenAI and Gemini,
+                            Development special
+                            integrations.</p>
+                        <p><span class="text-warning">&starf;</span> OS: Windows, Linux, Vm.</p>
+                    </div>
+                    <div id="work" class="col info">
+                        <h2>Work History</h2>
+                        <h4><span class="big_arrow">&#9022;</span> Self employee | Constructions Industries</h4>
+                        <p>2009 - Present</p>
+                        <p class="space"><span class="text-info">&#11208;</span> Owner of an independent business in the
+                            field of
+                            construction and renovations</p>
+                        <p class="space"><span class="text-info">&#11208;</span> Managing a team of workers, performing
+                            tasks due customer
+                            requirements</p>
+                        <p class="space"><span class="text-info">&#11208;</span> Cooperation with professionals and
+                            suppliers and ongoing
+                            operation of the business</p>
+                    </div>
+                    <div id="projects" class="col">
+                        <h2>Projects & Accomplishments</h2>
+                        <hr>
+                        <p><span class="goblet"><img width="30px" height="30px"
+                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/ta4/1/30/1f378.png"></span>
+                            Software for capital market analysis and automatic trading</p>
+                        <p><span class="goblet"><img width="30px" height="30px"
+                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/ta4/1/30/1f378.png"></span>
+                            Software for performing automatic operations using speech recognition
+                        </p>
+                        <p><span class="goblet"><img width="30px" height="30px"
+                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/ta4/1/30/1f378.png"></span>
+                            Customer management software</p>
+                        <p><span class="goblet"><img width="30px" height="30px"
+                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/ta4/1/30/1f378.png"></span>
+                            Software for guest management and wedding planning management</p>
+                        <p><span class="goblet"><img width="30px" height="30px"
+                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/ta4/1/30/1f378.png"></span>
+                            Control multiple functions on PC from anywhere and on any device</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
-    <div id="skills" class="info">
-        <h2>Hard Skills</h2>
-        <p><span class="star">&starf;</span> programming: Python (API integration, sqlite, GUI, funcionality,
-            statistical structors)</p>
-        <p><span class="star">&starf;</span> Web Development: Html, Css, (study Java script, Node.Js, React, MySql,
-            angular, MongoDB)</p>
-        <p><span class="star">&starf;</span> Ai: In collaboration with OpenAI and Gemini, Development special
-            integrations.</p>
-        <p><span class="star">&starf;</span> OS: Windows, Linux, Vm.</p>
-    </div>
-    <div id="work" class="info">
-        <h2>Work History</h2>
-        <h4><span class="big_arrow">&#9022;</span> Self employee | Constructions Industries</h4>
-        <p>2009 - Present</p>
-        <p class="space"><span class="arrow">&#11208;</span> Owner of an independent business in the field of
-            construction and renovations</p>
-        <p class="space"><span class="arrow">&#11208;</span> Managing a team of workers, performing tasks due customer
-            requirements</p>
-        <p class="space"><span class="arrow">&#11208;</span> Cooperation with professionals and suppliers and ongoing
-            operation of the business</p>
-    </div>
-    <div id="projects" class="info">
-        <h2>Projects & Accomplishments</h2>
-        <hr>
-        <p><span class="goblet">&#x1F942;</span> Software for capital market analysis and automatic trading</p>
-        <p><span class="goblet">&#x1F942;</span> Software for performing automatic operations using speech recognition
-        </p>
-        <p><span class="goblet">&#x1F942;</span> Customer management software</p>
-        <p><span class="goblet">&#x1F942;</span> Software for guest management and wedding planning management</p>
-        <p><span class="goblet">&#x1F942;</span> Control multiple functions on PC from anywhere and on any device</p>
-    </div>
-</div>
 </body>
 
 </html>
